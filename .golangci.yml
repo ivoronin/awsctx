@@ -1,0 +1,17 @@
+linters:
+  enable-all: true
+  disable:
+  # Dont care:
+  - exhaustruct
+  - depguard
+  - wrapcheck
+  - tagalign
+  - forbidigo
+  # Deprecated:
+  - execinquery
+  - gomnd
+  - perfsprint
+  - gochecknoglobals
+
+issues:
+  exclude-rules: []
