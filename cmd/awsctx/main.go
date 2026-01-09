@@ -13,7 +13,7 @@ var (
 	ColorRed       = color.New(color.FgRed).SprintFunc()
 	CheckMarkGreen = ColorGreen("✔")
 
-	version = ""
+	version = "dev"
 	commit  = ""
 	date    = ""
 )
