@@ -10,4 +10,5 @@ linters:
     - forbidigo
     - perfsprint
     - gochecknoglobals
-    - tenv  # deprecated, use usetesting
+    - wsl  # deprecated
+    - revive  # too noisy
