@@ -1,15 +1,13 @@
-linters:
-  enable-all: true
-  disable:
-  # Dont care:
-  - exhaustruct
-  - depguard
-  - wrapcheck
-  - tagalign
-  - forbidigo
-  - perfsprint
-  - gochecknoglobals
-  - tenv  # deprecated, use usetesting
+version: "2"
 
-issues:
-  exclude-rules: []
+linters:
+  default: all
+  disable:
+    - exhaustruct
+    - depguard
+    - wrapcheck
+    - tagalign
+    - forbidigo
+    - perfsprint
+    - gochecknoglobals
+    - tenv  # deprecated, use usetesting
