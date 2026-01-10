@@ -42,13 +42,7 @@ Download from [Releases](https://github.com/ivoronin/awsctx/releases).
 ### Homebrew
 
 ```bash
-brew install ivoronin/tap/awsctx
-```
-
-### Build from source
-
-```bash
-go install github.com/ivoronin/awsctx/cmd/awsctx@latest
+brew install ivoronin/ivoronin/awsctx
 ```
 
 ## Usage
