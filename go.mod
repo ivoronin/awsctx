@@ -3,7 +3,7 @@ module github.com/ivoronin/awsctx
 go 1.22.4
 
 require (
-	github.com/alexflint/go-arg v1.5.1
+	github.com/alexflint/go-arg v1.6.1
 	github.com/fatih/color v1.18.0
 	gopkg.in/ini.v1 v1.67.1
 )
